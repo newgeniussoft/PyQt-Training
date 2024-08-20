@@ -16,3 +16,7 @@ python load-html-file.py
 ```sh
 python load-html-script.py
 ```
+#### For print html script
+```sh
+python print-html-script.py
+```
