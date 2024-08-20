@@ -16,7 +16,7 @@ class WebView(QMainWindow):
         self.browser = QWebEngineView()
 
         # Get the path to the local HTML file
-        file_path = os.path.join(os.path.dirname(__file__), 'index.html')
+        file_path = os.path.join(os.path.dirname(__file__), 'public/index.html')
         file_url = QUrl.fromLocalFile(file_path)
 
         # Set the URL to load the local HTML file
